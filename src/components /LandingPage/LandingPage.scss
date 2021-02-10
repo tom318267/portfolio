@@ -1,0 +1,85 @@
+.LandingPage {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: #4e74da;
+  overflow-x: hidden;
+
+  .landing-div {
+    h1 {
+      position: absolute;
+      width: 400px;
+      height: 130px;
+      left: 10%;
+      top: 280px;
+      color: white;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 44px;
+    }
+
+    h2 {
+      position: absolute;
+      width: 300px;
+      height: 102px;
+      left: 10%;
+      top: 430px;
+      color: white;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    button {
+      position: absolute;
+      width: 170px;
+      height: 47px;
+      left: 10%;
+      top: 540px;
+      color: white;
+      border: none;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+
+      background: #0a236d;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      a {
+        text-decoration: none;
+        &:visited {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-fade:hover,
+  .hvr-fade:focus,
+  .hvr-fade:active {
+    background-color: #0043a8;
+    color: white;
+  }
+}
