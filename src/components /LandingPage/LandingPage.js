@@ -9,7 +9,7 @@ const LandingPage = () => {
       <Navbar />
       <div className="landing-div">
         <h1 className="animate__animated animate__fadeInLeft">
-          Hello, fdafdsff my name is Tom. I am a Web Developer!
+          Hello, my name is Tom. I am a Web Developer!
         </h1>
         <h2 className="animate__animated animate__fadeInLeft">
           I specialize in front-end and back-end.
