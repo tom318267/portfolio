@@ -2,6 +2,10 @@
   h4 {
     color: white;
     font-weight: 600;
+
+    @media screen and (max-width: 425px) {
+      display: none;
+    }
   }
 
   li {
@@ -9,6 +13,10 @@
       color: white !important;
       font-weight: 600;
       font-size: 1.1rem;
+
+      @media screen and (max-width: 425px) {
+        font-size: 0.8rem;
+      }
     }
   }
 
