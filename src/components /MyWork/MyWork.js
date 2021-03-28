@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import vector1 from "../../assets/vector.png";
 import triumph from "../../assets/triumph.png";
 import storybook from "../../assets/storybook.png";
+import bakery from "../../assets/bakery.png";
 import divine from "../../assets/divine.png";
 import devconnector from "../../assets/devconnector.png";
 import aboveall from "../../assets/aboveall.png";
@@ -44,6 +45,21 @@ const MyWork = () => {
         >
           {" "}
           <img className="hvr-grow" src={storybook} alt="storybook-website" />
+        </a>
+      </div>
+      <div data-aos="fade-left" className="work-container">
+        <h3>
+          <strong>Kristen's Bakery</strong> is a website made with HTML, SCSS,
+          React, Redux, Nodejs, Materialize, Firebase and Stripe. You can
+          purchase baked goods using stripe!
+        </h3>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://still-fortress-50463.herokuapp.com/"
+        >
+          {" "}
+          <img className="hvr-grow" src={bakery} alt="kristen's-bakery" />
         </a>
       </div>
       <div data-aos="fade-left" className="work-container">
