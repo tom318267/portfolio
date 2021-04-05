@@ -6,6 +6,7 @@ import bakery from "../../assets/bakery.png";
 import divine from "../../assets/divine.png";
 import devconnector from "../../assets/devconnector.png";
 import aboveall from "../../assets/aboveall.png";
+import splash from "../../assets/splash.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./MyWork.scss";
@@ -62,7 +63,7 @@ const MyWork = () => {
           <img className="hvr-grow" src={bakery} alt="kristen's-bakery" />
         </a>
       </div>
-      <div data-aos="fade-left" className="work-container">
+      <div data-aos="fade-right" className="work-container">
         <h3>
           <strong>DevConnector</strong> is a website made with HTML, SCSS,
           React, Redux, and MongoDB. Web developers can connect with other
@@ -79,6 +80,21 @@ const MyWork = () => {
             src={devconnector}
             alt="storybook-website"
           />
+        </a>
+      </div>
+      <div data-aos="fade-left" className="work-container">
+        <h3>
+          <strong>Splash</strong> is a website made with HTML, SCSS, React, and
+          React Context. You can search for any cocktail and you will get the
+          ingredients, glass-type, and insructions!
+        </h3>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://splashdb.netlify.app/"
+        >
+          {" "}
+          <img className="hvr-grow" src={splash} alt="splash" />
         </a>
       </div>
       <div data-aos="fade-right" className="work-container">
