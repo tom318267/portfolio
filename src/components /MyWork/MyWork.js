@@ -7,6 +7,7 @@ import divine from "../../assets/divine.png";
 import devconnector from "../../assets/devconnector.png";
 import aboveall from "../../assets/aboveall.png";
 import splash from "../../assets/splash.png";
+import delectable from "../../assets/delectable.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./MyWork.scss";
@@ -65,6 +66,21 @@ const MyWork = () => {
       </div>
       <div data-aos="fade-right" className="work-container">
         <h3>
+          <strong>Delectable</strong> is a website made with HTML, SCSS, React,
+          and Context. You can search for any meal and it will give you the
+          recipe, and instructions on how to make it!
+        </h3>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://still-fortress-50463.herokuapp.com/"
+        >
+          {" "}
+          <img className="hvr-grow" src={delectable} alt="delectable" />
+        </a>
+      </div>
+      <div data-aos="fade-left" className="work-container">
+        <h3>
           <strong>DevConnector</strong> is a website made with HTML, SCSS,
           React, Redux, and MongoDB. Web developers can connect with other
           developers and help each other!
@@ -85,8 +101,8 @@ const MyWork = () => {
       <div data-aos="fade-left" className="work-container">
         <h3>
           <strong>Splash</strong> is a website made with HTML, SCSS, React, and
-          React Context. You can search for any cocktail and you will get the
-          ingredients, glass-type, and insructions!
+          Context. You can search for any cocktail and you will get the
+          ingredients, glass-type, and instructions!
         </h3>
         <a
           rel="noreferrer"
