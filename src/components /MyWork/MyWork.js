@@ -73,7 +73,7 @@ const MyWork = () => {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://still-fortress-50463.herokuapp.com/"
+          href="https://delectable-app.netlify.app/"
         >
           {" "}
           <img className="hvr-grow" src={delectable} alt="delectable" />
