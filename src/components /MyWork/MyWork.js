@@ -8,6 +8,7 @@ import devconnector from "../../assets/devconnector.png";
 import aboveall from "../../assets/aboveall.png";
 import splash from "../../assets/splash.png";
 import delectable from "../../assets/delectable.png";
+import hulu2 from "../../assets/hulu2.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./MyWork.scss";
@@ -62,6 +63,20 @@ const MyWork = () => {
         >
           {" "}
           <img className="hvr-grow" src={bakery} alt="kristen's-bakery" />
+        </a>
+      </div>
+      <div data-aos="fade-left" className="work-container">
+        <h3>
+          <strong>Hulu 2.0</strong> is a clone of hulu using React, Next.js, and
+          Tailwind CSS!
+        </h3>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://hulu2-nine.vercel.app/"
+        >
+          {" "}
+          <img className="hvr-grow" src={hulu2} alt="hulu2" />
         </a>
       </div>
       <div data-aos="fade-right" className="work-container">
