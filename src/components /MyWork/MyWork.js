@@ -9,6 +9,7 @@ import aboveall from "../../assets/aboveall.png";
 import splash from "../../assets/splash.png";
 import delectable from "../../assets/delectable.png";
 import hulu2 from "../../assets/hulu2.png";
+import linkedin from "../../assets/linkedin.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./MyWork.scss";
@@ -48,6 +49,20 @@ const MyWork = () => {
         >
           {" "}
           <img className="hvr-grow" src={storybook} alt="storybook-website" />
+        </a>
+      </div>
+      <div data-aos="fade-left" className="work-container">
+        <h3>
+          <strong>LinkedIn Clone</strong> is a clone of LinkedIn made with
+          React, Material UI, and Firebase!
+        </h3>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://linked-in-clone-d75b2.web.app/"
+        >
+          {" "}
+          <img className="hvr-grow" src={linkedin} alt="linkedin" />
         </a>
       </div>
       <div data-aos="fade-left" className="work-container">
