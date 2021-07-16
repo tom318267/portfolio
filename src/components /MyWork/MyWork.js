@@ -54,9 +54,8 @@ const MyWork = () => {
       </div>
       <div data-aos="fade-left" className="work-container">
         <h3>
-          <strong>Snapchat Clone</strong> is a Snapchat clone made with HTML,
-          SCSS, React, Redux, Nodejs, Bootstrap and MongoDB. You can tell your
-          stories, and others can like/comment on your story!
+          <strong>Snapchat Clone</strong> is a clone of Snapchat made with
+          React, Redux, Material UI, and Firebase!
         </h3>
         <a
           rel="noreferrer"
@@ -70,7 +69,7 @@ const MyWork = () => {
       <div data-aos="fade-right" className="work-container">
         <h3>
           <strong>LinkedIn Clone</strong> is a clone of LinkedIn made with
-          React, Material UI, and Firebase!
+          React, Redux, Material UI, and Firebase!
         </h3>
         <a
           rel="noreferrer"
