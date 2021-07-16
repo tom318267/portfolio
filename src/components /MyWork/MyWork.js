@@ -10,6 +10,7 @@ import splash from "../../assets/splash.png";
 import delectable from "../../assets/delectable.png";
 import hulu2 from "../../assets/hulu2.png";
 import linkedin from "../../assets/linkedin.png";
+import snapchat from "../../assets/snapchat.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./MyWork.scss";
@@ -53,6 +54,21 @@ const MyWork = () => {
       </div>
       <div data-aos="fade-left" className="work-container">
         <h3>
+          <strong>Snapchat Clone</strong> is a Snapchat clone made with HTML,
+          SCSS, React, Redux, Nodejs, Bootstrap and MongoDB. You can tell your
+          stories, and others can like/comment on your story!
+        </h3>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://snapchat-clone-bb3e6.web.app/"
+        >
+          {" "}
+          <img className="hvr-grow" src={snapchat} alt="snapchat" />
+        </a>
+      </div>
+      <div data-aos="fade-right" className="work-container">
+        <h3>
           <strong>LinkedIn Clone</strong> is a clone of LinkedIn made with
           React, Material UI, and Firebase!
         </h3>
@@ -80,7 +96,7 @@ const MyWork = () => {
           <img className="hvr-grow" src={bakery} alt="kristen's-bakery" />
         </a>
       </div>
-      <div data-aos="fade-left" className="work-container">
+      <div data-aos="fade-right" className="work-container">
         <h3>
           <strong>Hulu 2.0</strong> is a clone of hulu using React, Next.js, and
           Tailwind CSS!
@@ -94,7 +110,7 @@ const MyWork = () => {
           <img className="hvr-grow" src={hulu2} alt="hulu2" />
         </a>
       </div>
-      <div data-aos="fade-right" className="work-container">
+      <div data-aos="fade-left" className="work-container">
         <h3>
           <strong>Delectable</strong> is a website made with HTML, SCSS, React,
           and Context. You can search for any meal and it will give you the
@@ -109,7 +125,7 @@ const MyWork = () => {
           <img className="hvr-grow" src={delectable} alt="delectable" />
         </a>
       </div>
-      <div data-aos="fade-left" className="work-container">
+      <div data-aos="fade-right" className="work-container">
         <h3>
           <strong>DevConnector</strong> is a website made with HTML, SCSS,
           React, Redux, and MongoDB. Web developers can connect with other
